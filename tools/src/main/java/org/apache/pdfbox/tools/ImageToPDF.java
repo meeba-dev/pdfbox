@@ -156,6 +156,10 @@ public final class ImageToPDF implements Callable<Integer>
         {
             return PDRectangle.A6;
         }
+        else if ("A7".equalsIgnoreCase(paperSize))
+        {
+            return PDRectangle.A7;
+        }
         else
         {
             // return default if wron size was specified

@@ -81,6 +81,8 @@ public class PDRectangle implements COSObjectable
     @SuppressWarnings("java:S2390")
     public static final PDRectangle A6 = new PDImmutableRectangle(105 * POINTS_PER_MM, 148 * POINTS_PER_MM);
 
+    public static final PDRectangle A7 = new PDImmutableRectangle(74 * POINTS_PER_MM,  105 * POINTS_PER_MM);
+
     private final COSArray rectArray;
 
     /**

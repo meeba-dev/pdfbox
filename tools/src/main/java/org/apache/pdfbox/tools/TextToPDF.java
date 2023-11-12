@@ -108,7 +108,8 @@ public class TextToPDF implements Callable<Integer>
         A3(PDRectangle.A3),
         A4(PDRectangle.A4),
         A5(PDRectangle.A5),
-        A6(PDRectangle.A6);
+        A6(PDRectangle.A6),
+        A7(PDRectangle.A7);
 
         final PDRectangle pageSize;
 

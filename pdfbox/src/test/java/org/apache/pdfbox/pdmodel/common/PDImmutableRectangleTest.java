@@ -45,6 +45,7 @@ class PDImmutableRectangleTest
         Assertions.assertTrue(PDRectangle.A4 instanceof PDImmutableRectangle);
         Assertions.assertTrue(PDRectangle.A5 instanceof PDImmutableRectangle);
         Assertions.assertTrue(PDRectangle.A6 instanceof PDImmutableRectangle);
+        Assertions.assertTrue(PDRectangle.A7 instanceof PDImmutableRectangle);
         Assertions.assertTrue(PDRectangle.LEGAL instanceof PDImmutableRectangle);
         Assertions.assertTrue(PDRectangle.LETTER instanceof PDImmutableRectangle);
     }
